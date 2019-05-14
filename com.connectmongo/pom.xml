@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>connectMongo</groupId>
+  <artifactId>com.connectmongo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+  	<dependency>
+	<groupId>org.mongodb</groupId>
+	<artifactId>mongo-java-driver</artifactId>
+	<version>3.10.1</version>
+	</dependency>
+	<dependency>
+	<groupId>org.mongodb</groupId>
+	<artifactId>mongodb-driver-core</artifactId>
+	<version>3.10.1</version>
+</dependency>
+
+	<dependency>
+	<groupId>org.mongodb</groupId>
+	<artifactId>bson</artifactId>
+	<version>3.10.1</version>
+</dependency>
+
+  </dependencies>
+  
+</project>
+
+<!-- mvn install:install-file -Dfile=mongodb-driver-3.10.1.jar -DgroupId=org.mongodb -DartifactId=mongo-java-driver -Dversion=3.10.1 -Dpackaging=jar -->
+<!-- mvn install:install-file -Dfile=mongodb-driver-core-3.10.1.jar -DgroupId=org.mongodb -DartifactId=mongodb-driver-core -Dversion=3.10.1 -Dpackaging=jar -->
+<!-- mvn install:install-file -Dfile=bson-3.10.1 -DgroupId=org.mongodb -DartifactId=bson -Dversion=3.10.1 -Dpackaging=jar -->
